@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>grid.com</title>
+	<style type="text/css">
+		.grid-container{
+			display: grid;
+			grid-template-columns: auto auto auto auto auto;
+			grid-template-rows: auto auto auto auto auto auto auto auto; 
+			padding: 2px;
+			background-color: skyblue;
+		}
+		.grid-container div{
+			background-color: rgb(255,255,255);
+			margin: 5px;
+			font-size: 30px;
+			text-align: center;
+		}
+		#computer-science{
+			grid-row: 2/5;
+			align-items: center;
+			justify-content: center;
+		}
+		#student{
+			grid-column: 2/4;
+		}
+		#random-tiem{
+			grid-column: 1/6;
+		}
+		#B{
+			grid-row: 7/9;
+		}
+		#C{
+			grid-column: 3/5;
+		}
+		#AAA{
+			grid-row: 8/10;
+		}
+		#D{
+			grid-column: 4/6;
+		}
+		#bigB{
+			grid-row: 9/11;
+			grid-column: 2/5;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="grid-container">
+		<div>Degree</div>
+		<div id="student">Student</div>
+		<div>Age</div>
+		<div>Course</div>
+		<div id="computer-science">Computer Science</div>
+		<div>Pepito</div>
+		<div>G</div>
+		<div>22</div>
+		<div >1r</div>
+		<div>Jack</div>
+		<div>Meier</div>
+		<div>94</div>
+		<div>????</div>
+		<div>John</div>
+		<div>Brown</div>
+		<div>18</div>
+		<div>4rt</div>
+		<div>Electrical Engineering</div>
+		<div>Aina</div>
+		<div>Soler</div>
+		<div>23</div>
+		<div>4rt</div>
+		<div id="random-tiem">Random tiem</div>
+		<div>A</div>
+		<div id="B">B</div>
+		<div id="C">C</div>
+		<div>E</div>
+		<div id="AAA">A</div>
+		<div>C</div>
+		<div id="D">D</div>
+		<div id="bigB">B</div>
+		<div>C</div>
+		<div>C</div>
+		<div>D</div>
+	</div>
+
+</body>
+</html>

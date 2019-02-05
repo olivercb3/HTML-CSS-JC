@@ -1,0 +1,1 @@
+Serveix per a que gran part dels navegdors puguin fer la metixa interpretació del codi CSS, homogeneitzat la seva visualització en tots els motors de cerca.

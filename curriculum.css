@@ -1,0 +1,12 @@
+*{
+	background-color: gold;
+}
+.div1{
+	margin-left: 50px;
+	margin-right: 1099px;
+}
+#idiomes{
+	display: grid;
+	grid-template-columns: 20%,20%,20%,20%,20%;
+	grid-template-rows: 50%,50%;
+}

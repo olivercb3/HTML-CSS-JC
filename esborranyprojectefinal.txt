@@ -1,0 +1,7 @@
+CROISSANTERIE DEL PÍ
+
+M'agradaria desenvolupar una pàgina web per a un comerç familiar. No únicament vull que sigui informatiu, explicant la història que té darrere...
+a més de donar la seva localització i presentar els empleats, sinó que la gent també pugui penjar les seves opinions personals sobre la qüalitat del servei
+i els potencials punts de millora.
+Inclús m'agradaria intentar crear una secció de pre-reserves automàtiques, on es pugui gestionar les taules lliures per a una determinada hora si fós
+possible.
