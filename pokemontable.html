@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pokemontable</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="jquery666.js"></script>
+	<style type="text/css">
+		div.container{
+			display: grid;
+			grid-template-columns: auto auto auto auto auto auto;
+			grid-template-rows: auto auto auto auto auto auto;
+			padding: 2px;
+			background-color: purple;
+		}
+		.container div{
+			background-color: rgb(255,255,255);
+			margin: 5px;
+			font-size: 30px;
+			text-align: center;
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<div id="pcode">CODE</div>
+		<div id="NormalSprite">NORMAL SPRITE</div>
+		<div id="ShinySprite">SHINY SPRITE</div>
+		<div id="pname">NAME</div>
+		<div id="ptype">TYPE</div>
+		<div id="HM">HM</div>
+		<div id="pcode1"></div>
+		<img id="NormalSprite1">
+		<img id="ShinySprite1">
+		<div id="pname1"></div>
+		<ul id="ptype1"></ul>
+		<div id="HM1"></div>
+
+		<input type="text" name="pid" id="writeid">
+		<input type="Submit" value="Submit" id="searchButton">
+		
+	</div>
+
+</body>
+</html>
